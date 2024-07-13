@@ -1,0 +1,90 @@
+/* globals.css */
+
+
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #1f1f1f; /* Navbar gelap */
+  color: #e0e0e0;
+  padding: 1rem;
+  z-index: 1000;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.navList {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navItem {
+  margin: 0 1rem;
+}
+
+.navItem a {
+  color: #e0e0e0;
+  text-decoration: none;
+  font-size: 1rem;
+}
+.navLink {
+  color: #fff;
+  text-decoration: none;
+  padding: 15px;
+  display: block;
+  cursor: default; /* Change cursor to default arrow */
+}
+.navLink:hover {
+  color: #ffffff;
+  cursor: default; /* Change cursor to default arrow */
+}
+
+.main {
+  padding: 0 2rem;
+  min-height: 100vh;
+  padding-top: 4rem; /* Untuk offset navbar tetap */
+}
+
+.section {
+  padding: 4rem 0;
+  text-align: center;
+}
+
+.sectionTitle {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #e0e0e0;
+}
+
+.sectionContent {
+  font-size: 1rem;
+  color: #b0b0b0;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.projectList {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.projectItem {
+  background-color: #1f1f1f; /* Latar belakang item proyek gelap */
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.projectTitle {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+  color: #e0e0e0;
+}
+
+.projectDescription {
+  font-size: 1rem;
+  color: #b0b0b0;
+}
