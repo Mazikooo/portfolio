@@ -1,90 +1,88 @@
-/* globals.css */
-
 
 .navbar {
   position: fixed;
-  top: 0;
   width: 100%;
-  background-color: #1f1f1f; /* Navbar gelap */
-  color: #e0e0e0;
-  padding: 1rem;
+  top: 0;
+  left: 0;
+  background-color: #161b22;
   z-index: 1000;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .navList {
+  list-style: none;
   display: flex;
   justify-content: center;
-  list-style: none;
-  margin: 0;
-  padding: 0;
+  gap: 2rem;
 }
 
 .navItem {
-  margin: 0 1rem;
+  cursor: pointer;
 }
 
-.navItem a {
-  color: #e0e0e0;
-  text-decoration: none;
-  font-size: 1rem;
-}
 .navLink {
-  color: #fff;
-  text-decoration: none;
-  padding: 15px;
-  display: block;
-  cursor: default; /* Change cursor to default arrow */
+  color: #c9d1d9;
+  font-size: 1rem;
+  transition: color 0.3s ease;
 }
+
 .navLink:hover {
-  color: #ffffff;
-  cursor: default; /* Change cursor to default arrow */
+  color: #58a6ff;
 }
 
 .main {
-  padding: 0 2rem;
-  min-height: 100vh;
-  padding-top: 4rem; /* Untuk offset navbar tetap */
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  text-align: center;
 }
 
 .section {
-  padding: 4rem 0;
-  text-align: center;
+  padding: 5rem 1rem;
+  border-bottom: 1px solid #21262d;
 }
 
 .sectionTitle {
   font-size: 2rem;
   margin-bottom: 1rem;
-  color: #e0e0e0;
+  color: #58a6ff;
 }
 
 .sectionContent {
   font-size: 1rem;
-  color: #b0b0b0;
-  max-width: 600px;
-  margin: 0 auto;
+  line-height: 1.5;
+  margin-bottom: 1rem;
 }
 
 .projectList {
   display: flex;
   flex-direction: column;
+  align-items: center;
   gap: 2rem;
 }
 
 .projectItem {
-  background-color: #1f1f1f; /* Latar belakang item proyek gelap */
-  padding: 1.5rem;
-  border-radius: 8px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+  background-color: #161b22;
+  padding: 2rem;
+  border-radius: 10px;
+  width: 80%;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.projectItem:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
 
 .projectTitle {
   font-size: 1.5rem;
   margin-bottom: 0.5rem;
-  color: #e0e0e0;
+  color: #58a6ff;
 }
 
 .projectDescription {
   font-size: 1rem;
-  color: #b0b0b0;
+  line-height: 1.5;
 }
