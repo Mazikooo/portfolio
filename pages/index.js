@@ -63,13 +63,13 @@ const Home = () => {
         >
           <h2 className={styles.sectionTitle}>Profile</h2>
           <p className={styles.sectionContent}>
-            Hello! I'm Muhammad Azis, a passionate and results-driven software developer with over 5 years of experience in the tech industry. I specialize in building scalable web applications using modern technologies such as React, Next.js, and Node.js. My journey began with a degree in Computer Science from MIT, where I developed a strong foundation in algorithms, data structures, and software engineering principles.
+            Hello! I&apos;m Muh Azis, a passionate and results-driven software developer with over 5 years of experience in the tech industry. I specialize in building scalable web applications using modern technologies such as React, Next.js, and Node.js. My journey began with a degree in Computer Science from MIT, where I developed a strong foundation in algorithms, data structures, and software engineering principles.
           </p>
           <p className={styles.sectionContent}>
             Throughout my career, I have had the opportunity to work on a diverse range of projects, from developing e-commerce platforms to creating sophisticated data visualization tools. I thrive in fast-paced environments and am constantly seeking new challenges to improve my skills and contribute to innovative solutions. My expertise lies in full-stack development, with a particular focus on creating user-friendly interfaces and optimizing backend performance.
           </p>
           <p className={styles.sectionContent}>
-            In addition to my technical skills, I am a strong advocate for continuous learning and professional growth. I regularly attend industry conferences and participate in online courses to stay updated with the latest trends and best practices in software development. When I'm not coding, you can find me exploring new technologies, writing technical blogs, or contributing to open-source projects.
+            In addition to my technical skills, I am a strong advocate for continuous learning and professional growth. I regularly attend industry conferences and participate in online courses to stay updated with the latest trends and best practices in software development. When I&apos;m not coding, you can find me exploring new technologies, writing technical blogs, or contributing to open-source projects.
           </p>
         </motion.section>
         <motion.section
@@ -125,8 +125,8 @@ const Home = () => {
           </p>
           <p className={styles.sectionContent}>
             Email: alex.johnson@example.com<br />
-            LinkedIn: <a href="https://www.linkedin.com/muhazis" target="_blank" rel="noopener noreferrer">linkedin.com/in/alexjohnson</a><br />
-            GitHub: <a href="https://github.com/muhazis" target="_blank" rel="noopener noreferrer">github.com/alexjohnson</a>
+            LinkedIn: <a href="https://www.linkedin.com/in/alexjohnson" target="_blank" rel="noopener noreferrer">linkedin.com/in/alexjohnson</a><br />
+            GitHub: <a href="https://github.com/alexjohnson" target="_blank" rel="noopener noreferrer">github.com/alexjohnson</a>
           </p>
         </motion.section>
       </main>
