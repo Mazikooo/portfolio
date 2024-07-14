@@ -1,4 +1,5 @@
 // pages/index.js
+/* eslint-disable react/no-unescaped-entities */
 
 import React from 'react';
 import Head from 'next/head';
@@ -63,11 +64,7 @@ const Home = () => {
         >
           <h2 className={styles.sectionTitle}>Profile</h2>
           <p className={styles.sectionContent}>
-<<<<<<< HEAD
             Hello! I&apos;m Muh Azis, a passionate and results-driven software developer with over 5 years of experience in the tech industry. I specialize in building scalable web applications using modern technologies such as React, Next.js, and Node.js. My journey began with a degree in Computer Science from MIT, where I developed a strong foundation in algorithms, data structures, and software engineering principles.
-=======
-            Hello! I&apos;m Muhammad Azis, a passionate and results-driven software developer with over 5 years of experience in the tech industry. I specialize in building scalable web applications using modern technologies such as React, Next.js, and Node.js. My journey began with a degree in Computer Science from MIT, where I developed a strong foundation in algorithms, data structures, and software engineering principles.
->>>>>>> 24fd40e630e73b6ea707b8a6bc2d1f140d3b5125
           </p>
           <p className={styles.sectionContent}>
             Throughout my career, I have had the opportunity to work on a diverse range of projects, from developing e-commerce platforms to creating sophisticated data visualization tools. I thrive in fast-paced environments and am constantly seeking new challenges to improve my skills and contribute to innovative solutions. My expertise lies in full-stack development, with a particular focus on creating user-friendly interfaces and optimizing backend performance.
