@@ -108,39 +108,52 @@
   width: 60%;
   margin: 0 auto;
 }
-
 .projectRow {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   margin-bottom: 20px;
 }
 
 .projectList {
   display: flex;
-  flex-wrap: wrap; /* Agar item proyek bisa berpindah baris jika diperlukan */
-  gap: 20px; /* Jarak antar item proyek */
-  justify-content: center; /* Menyusun item di tengah baris */
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
 }
 
 .projectItem {
   background-color: #161b22;
   padding: 2rem;
   border-radius: 10px;
-  width: calc(33.333% - 20px); /* Lebar item proyek untuk 3 item per baris, dikurangi gap */
+  width: 100%; /* Item akan menempati 100% lebar pada layar mobile */
   transition: transform 0.3s ease, box-shadow 0.3s ease;
-  box-sizing: border-box; /* Memastikan padding tidak menambah lebar elemen */
+  box-sizing: border-box;
+  margin-bottom: 20px;
 }
 
+@media (min-width: 768px) {
+  .projectItem {
+    width: calc(50% - 10px); /* Untuk 2 item per baris pada layar tablet, dikurangi gap */
+    margin-bottom: 0;
+  }
+}
+
+@media (min-width: 1024px) {
+  .projectItem {
+    width: calc(33.333% - 20px); /* Untuk 3 item per baris pada layar desktop, dikurangi gap */
+    margin-bottom: 0;
+  }
+}
 
 .projectItem:hover {
   transform: scale(1.05);
-  box-shadow: 7px 7px 0px -4px rgba(88, 166, 255, 0.75); /* Ubah warna shadow menjadi biru */
-  -webkit-box-shadow: 7px 7px 0px -4px  rgba(88, 166, 255, 0.75); /* Ubah warna shadow untuk WebKit */
-  -moz-box-shadow: 7px 7px 0px -4px  rgba(88, 166, 255, 0.75); /* Ubah warna shadow untuk Mozilla */
+  box-shadow: 7px 7px 5px -4px rgba(88, 166, 255, 0.75);
+  -webkit-box-shadow: 7px 7px 5px -4px rgba(88, 166, 255, 0.75);
+  -moz-box-shadow: 7px 7px 5px -4px rgba(88, 166, 255, 0.75);
   background: linear-gradient(#161b22, #161b22) padding-box,
               linear-gradient(145deg, transparent 35%, #e81cff, #40c9ff) border-box;
 }
-
 
 .projectImage {
   width: 100%;
@@ -154,7 +167,6 @@
   margin-bottom: 0.5rem;
   color: #58a6ff;
   text-align: left;
-
 }
 
 .projectDescription {
@@ -171,9 +183,9 @@
 }
 
 .techLogo {
-  width: 30px;
   height: 30px;
 }
+
 
 .contactContent {
   display: flex;
