@@ -56,7 +56,7 @@ const DataAnalysisSection: React.FC = () => {
               </Tippy>
               <Tippy content="Pandas">
                 <Image
-                  src="/logo/pandas.png"
+                  src="/logo/p.png"
                   alt="Pandas"
                   className={styles.techLogo}
                   width={30}
@@ -65,8 +65,17 @@ const DataAnalysisSection: React.FC = () => {
               </Tippy>
               <Tippy content="Matplotlib">
                 <Image
-                  src="/logo/matplotlib.png"
+                  src="/logo/m.png"
                   alt="Matplotlib"
+                  className={styles.techLogo}
+                  width={30}
+                  height={30}
+                />
+              </Tippy>
+              <Tippy content="Decision Tree">
+                <Image
+                  src="/logo/letterD.png"
+                  alt="Decision Tree"
                   className={styles.techLogo}
                   width={30}
                   height={30}
@@ -98,7 +107,7 @@ const DataAnalysisSection: React.FC = () => {
               {/* Technology stack icons */}
               <Tippy content="Python">
                 <Image
-                  src="/logo/python.png"
+                  src="/logo/py.png"
                   alt="Python"
                   className={styles.techLogo}
                   width={30}
@@ -107,7 +116,7 @@ const DataAnalysisSection: React.FC = () => {
               </Tippy>
               <Tippy content="Pandas">
                 <Image
-                  src="/logo/pandas.png"
+                  src="/logo/p.png"
                   alt="Pandas"
                   className={styles.techLogo}
                   width={30}
@@ -116,7 +125,7 @@ const DataAnalysisSection: React.FC = () => {
               </Tippy>
               <Tippy content="Matplotlib">
                 <Image
-                  src="/logo/matplotlib.png"
+                  src="/logo/m.png"
                   alt="Matplotlib"
                   className={styles.techLogo}
                   width={30}
@@ -149,7 +158,7 @@ const DataAnalysisSection: React.FC = () => {
               {/* Technology stack icons */}
               <Tippy content="Python">
                 <Image
-                  src="/logo/python.png"
+                  src="/logo/py.png"
                   alt="Python"
                   className={styles.techLogo}
                   width={30}
@@ -158,8 +167,17 @@ const DataAnalysisSection: React.FC = () => {
               </Tippy>
               <Tippy content="Pandas">
                 <Image
-                  src="/logo/pandas.png"
+                  src="/logo/p.png"
                   alt="Pandas"
+                  className={styles.techLogo}
+                  width={30}
+                  height={30}
+                />
+              </Tippy>
+              <Tippy content="TensorFlow">
+                <Image
+                  src="/logo/letterT.png"
+                  alt="TensorFlow "
                   className={styles.techLogo}
                   width={30}
                   height={30}
@@ -167,7 +185,7 @@ const DataAnalysisSection: React.FC = () => {
               </Tippy>
               <Tippy content="Matplotlib">
                 <Image
-                  src="/logo/matplotlib.png"
+                  src="/logo/m.png"
                   alt="Matplotlib"
                   className={styles.techLogo}
                   width={30}
@@ -206,8 +224,17 @@ const DataAnalysisSection: React.FC = () => {
               {/* Technology stack icons */}
               <Tippy content="Python">
                 <Image
-                  src="/logo/python.png"
+                  src="/logo/py.png"
                   alt="Python"
+                  className={styles.techLogo}
+                  width={30}
+                  height={30}
+                />
+              </Tippy>
+              <Tippy content="K-Nearest Neighbors">
+                <Image
+                  src="/logo/k.png"
+                  alt="K-Nearest Neighbors"
                   className={styles.techLogo}
                   width={30}
                   height={30}
@@ -215,7 +242,7 @@ const DataAnalysisSection: React.FC = () => {
               </Tippy>
               <Tippy content="Pandas">
                 <Image
-                  src="/logo/pandas.png"
+                  src="/logo/p.png"
                   alt="Pandas"
                   className={styles.techLogo}
                   width={30}
@@ -224,7 +251,7 @@ const DataAnalysisSection: React.FC = () => {
               </Tippy>
               <Tippy content="Matplotlib">
                 <Image
-                  src="/logo/matplotlib.png"
+                  src="/logo/m.png"
                   alt="Matplotlib"
                   className={styles.techLogo}
                   width={30}
@@ -260,8 +287,17 @@ const DataAnalysisSection: React.FC = () => {
               {/* Technology stack icons */}
               <Tippy content="Python">
                 <Image
-                  src="/logo/python.png"
+                  src="/logo/py.png"
                   alt="Python"
+                  className={styles.techLogo}
+                  width={30}
+                  height={30}
+                />
+              </Tippy>
+              <Tippy content="Naive Bayes Classifier">
+                <Image
+                  src="/logo/n.png"
+                  alt="Naive Bayes Classifier"
                   className={styles.techLogo}
                   width={30}
                   height={30}
@@ -269,7 +305,7 @@ const DataAnalysisSection: React.FC = () => {
               </Tippy>
               <Tippy content="Pandas">
                 <Image
-                  src="/logo/pandas.png"
+                  src="/logo/p.png"
                   alt="Pandas"
                   className={styles.techLogo}
                   width={30}
@@ -278,7 +314,7 @@ const DataAnalysisSection: React.FC = () => {
               </Tippy>
               <Tippy content="Matplotlib">
                 <Image
-                  src="/logo/matplotlib.png"
+                  src="/logo/m.png"
                   alt="Matplotlib"
                   className={styles.techLogo}
                   width={30}
@@ -311,7 +347,7 @@ const DataAnalysisSection: React.FC = () => {
               {/* Technology stack icons */}
               <Tippy content="Python">
                 <Image
-                  src="/logo/python.png"
+                  src="/logo/py.png"
                   alt="Python"
                   className={styles.techLogo}
                   width={30}
@@ -320,7 +356,7 @@ const DataAnalysisSection: React.FC = () => {
               </Tippy>
               <Tippy content="Pandas">
                 <Image
-                  src="/logo/pandas.png"
+                  src="/logo/p.png"
                   alt="Pandas"
                   className={styles.techLogo}
                   width={30}
@@ -329,7 +365,7 @@ const DataAnalysisSection: React.FC = () => {
               </Tippy>
               <Tippy content="Matplotlib">
                 <Image
-                  src="/logo/matplotlib.png"
+                  src="/logo/m.png"
                   alt="Matplotlib"
                   className={styles.techLogo}
                   width={30}
