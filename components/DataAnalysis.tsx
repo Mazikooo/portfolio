@@ -30,7 +30,7 @@ const DataAnalysisSection: React.FC = () => {
             transition={{ duration: 0.3 }}
           >
             <Image
-              src="/images/diabet.png"
+              src="/images/diabet2.png"
               alt="Diabetes Risk Prediction"
               className={styles.projectImage}
               width={800}
@@ -91,7 +91,7 @@ const DataAnalysisSection: React.FC = () => {
             transition={{ duration: 0.3 }}
           >
             <Image
-              src="/images/book.png"
+              src="/images/book2.png"
               alt="Book Recommendation System"
               className={styles.projectImage}
               width={800}
@@ -142,7 +142,7 @@ const DataAnalysisSection: React.FC = () => {
             transition={{ duration: 0.3 }}
           >
             <Image
-              src="/images/imgclass.png"
+              src="/images/imgclass2.png"
               alt="Diabetes Risk Prediction"
               className={styles.projectImage}
               width={800}
@@ -207,7 +207,7 @@ const DataAnalysisSection: React.FC = () => {
             transition={{ duration: 0.3 }}
           >
             <Image
-              src="/images/liver.png"
+              src="/images/liver2.png"
               alt="Liver disease diagnosis"
               className={styles.projectImage}
               width={800}
@@ -268,7 +268,7 @@ const DataAnalysisSection: React.FC = () => {
             transition={{ duration: 0.3 }}
           >
             <Image
-              src="/images/sleep.png"
+              src="/images/sleep2.png"
               alt="Classification of Sleep Quality Levels"
               className={styles.projectImage}
               width={800}
