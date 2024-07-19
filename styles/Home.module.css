@@ -95,6 +95,97 @@
   margin: 0 auto; 
 }
 
+
+.hi {
+  margin-top: 50px !important;
+  font-size: 2.2rem;
+  margin-bottom: 2rem;
+  color: #58a6ff;
+  text-align: left;
+  margin: 0 auto; 
+  max-width: 950px; 
+}
+
+.intro {
+  font-size: 3rem;
+  margin-bottom: 2rem;
+  color: #fff;
+  text-align: left;
+  max-width: 950px; 
+  margin: 0 auto; 
+}
+.azis{
+  background: linear-gradient(to right, #58a6ff, #2e66ff);
+  -webkit-background-clip: text;
+  background-clip: text; /* Standard property */
+  -webkit-text-fill-color: transparent; /* For WebKit browsers */
+}
+.student{
+  text-align: left;
+  max-width: 950px; 
+  margin: 0 auto; 
+  margin-top: 10px;
+  font-size: 1.2rem;
+  /* margin-bottom: 2rem; */
+}
+.si{
+  text-decoration: underline;
+  text-decoration-color: #58a6ff;
+  text-decoration-style: dotted;
+  text-underline-offset: 7px;
+}
+
+.contact{
+  /* text-decoration: underline; */
+  color: #58a6ff;
+  /* text-decoration-color: #fff;
+  text-decoration-style: dotted;
+  text-underline-offset: 7px; */
+}
+.socmedList {
+  display: flex;
+  justify-content: left; /* Pusatkan daftar */
+  align-items: left;
+  list-style: none;
+  padding: 0;
+  margin-top: 1rem; 
+  text-align: left;
+  max-width: 950px; 
+  margin: 0 auto; 
+  font-size: 1.2rem;
+  margin-bottom: 100px;
+}
+
+.socmedItem {
+  display: flex;
+  align-items: center;
+  margin: 0 1rem; /* Jarak antara item socmed */
+}
+
+.socmedLink {
+  text-decoration: none;
+  color: inherit; /* Warna teks mengikuti elemen induk */
+}
+
+.socmedLogo {
+  width: 20px;
+  height: 20px;
+  vertical-align: middle;
+}
+.socmedName {
+  font-size: 1.2rem;
+  margin-left: 5px;
+}
+
+.profildesc{
+  max-width: 950px; 
+  margin: 0 auto; 
+  margin-top: 1rem;
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+  text-align: left;
+}
+
 .sectionTitle {
   font-size: 2rem;
   margin-bottom: 2rem;
@@ -108,11 +199,24 @@
   width: 60%;
   margin: 0 auto;
 }
+
+.category {
+  font-size: 1.4rem;
+  margin-bottom: 1rem !important;
+  color: #58a6ff;
+  text-align: left;
+  margin: 0 auto; 
+  max-width: 1200px; 
+}
+
 .projectRow {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   margin-bottom: 20px;
+}
+.hidden {
+  display: none;
 }
 
 .projectList {
@@ -242,6 +346,7 @@
 .formGroup {
   display: flex;
   flex-direction: column;
+  text-align: left;
   gap: 2px;
 }
 

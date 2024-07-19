@@ -15,6 +15,7 @@ const ProjectsSection: React.FC = () => {
       transition={{ duration: 0.5 }}
     >
       <h2 className={styles.sectionTitle}>Projects</h2>
+      <h2 className={styles.category}>| Web Development</h2>
       <div className={styles.projectList}>
         <div className={styles.projectRow}>
           <motion.div

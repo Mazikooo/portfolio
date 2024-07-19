@@ -4,6 +4,7 @@ import Header from '../components/Header';
 import ProfileSection from '../components/ProfileSection';
 import ProjectsSection from '../components/ProjectsSection';
 import ContactSection from '../components/ContactSection';
+import DataAnalysisSection from '../components/DataAnalysis';
 import Footer from '../components/Footer';
 import styles from '../styles/Home.module.css';
 
@@ -19,6 +20,7 @@ const Home: React.FC = () => {
       <main className={styles.main}>
         <ProfileSection />
         <ProjectsSection />
+        <DataAnalysisSection />
         <ContactSection />
       </main>
       <Footer />
