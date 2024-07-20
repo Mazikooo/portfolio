@@ -35,6 +35,7 @@ const DataAnalysisSection: React.FC = () => {
               className={styles.projectImage}
               width={800}
               height={400}
+              layout="responsive"
             />
             <h3 className={styles.projectTitle}>Diabetes Risk Prediction</h3>
             <p className={styles.projectDescription}>
