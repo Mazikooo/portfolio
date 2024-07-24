@@ -30,7 +30,7 @@ const DataAnalysisSection: React.FC = () => {
             transition={{ duration: 0.3 }}
           >
             <Image
-              src="/images/ML/diabet2.png"
+              src="/images/ML/diabet3.png"
               alt="Diabetes Risk Prediction"
               className={styles.projectImageML}
               width={800}
