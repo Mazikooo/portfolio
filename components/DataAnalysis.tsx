@@ -32,7 +32,7 @@ const DataAnalysisSection: React.FC = () => {
             <Image
               src="/images/diabet2.png"
               alt="Diabetes Risk Prediction"
-              className={styles.projectImage}
+              className={styles.projectImageML}
               width={800}
               height={400}
               layout="responsive"
@@ -93,7 +93,7 @@ const DataAnalysisSection: React.FC = () => {
             <Image
               src="/images/book2.png"
               alt="Book Recommendation System"
-              className={styles.projectImage}
+              className={styles.projectImageML}
               width={800}
               height={400}
               layout="responsive"
@@ -144,7 +144,7 @@ const DataAnalysisSection: React.FC = () => {
             <Image
               src="/images/imgclass2.png"
               alt="Diabetes Risk Prediction"
-              className={styles.projectImage}
+              className={styles.projectImageML}
               width={800}
               height={400}
               layout="responsive"
@@ -209,7 +209,7 @@ const DataAnalysisSection: React.FC = () => {
             <Image
               src="/images/liver2.png"
               alt="Liver disease diagnosis"
-              className={styles.projectImage}
+              className={styles.projectImageML}
               width={800}
               height={400}
               layout="responsive"
@@ -270,7 +270,7 @@ const DataAnalysisSection: React.FC = () => {
             <Image
               src="/images/sleep2.png"
               alt="Classification of Sleep Quality Levels"
-              className={styles.projectImage}
+              className={styles.projectImageML}
               width={800}
               height={400}
               layout="responsive"
@@ -333,7 +333,7 @@ const DataAnalysisSection: React.FC = () => {
             <Image
               src="/images/kekost.png"
               alt="Diabetes Risk Prediction"
-              className={styles.projectImage}
+              className={styles.projectImageML}
               width={800}
               height={400}
               layout="responsive"
