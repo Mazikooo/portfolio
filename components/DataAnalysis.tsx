@@ -91,7 +91,7 @@ const DataAnalysisSection: React.FC = () => {
             transition={{ duration: 0.3 }}
           >
             <Image
-              src="/images/book2.png"
+              src="/images/ML/book2.png"
               alt="Book Recommendation System"
               className={styles.projectImageML}
               width={800}
@@ -142,8 +142,8 @@ const DataAnalysisSection: React.FC = () => {
             transition={{ duration: 0.3 }}
           >
             <Image
-              src="/images/imgclass2.png"
-              alt="Diabetes Risk Prediction"
+              src="/images/ML/imgclass2.png"
+              alt="Image Classification"
               className={styles.projectImageML}
               width={800}
               height={400}
@@ -207,7 +207,7 @@ const DataAnalysisSection: React.FC = () => {
             transition={{ duration: 0.3 }}
           >
             <Image
-              src="/images/liver2.png"
+              src="/images/ML/liver2.png"
               alt="Liver disease diagnosis"
               className={styles.projectImageML}
               width={800}
@@ -331,8 +331,8 @@ const DataAnalysisSection: React.FC = () => {
             transition={{ duration: 0.3 }}
           >
             <Image
-              src="/images/kekost.png"
-              alt="Diabetes Risk Prediction"
+              src="/images/ML/imgclass2.png"
+              alt="Image Classification"
               className={styles.projectImageML}
               width={800}
               height={400}
