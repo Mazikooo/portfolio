@@ -268,7 +268,7 @@ const DataAnalysisSection: React.FC = () => {
             transition={{ duration: 0.3 }}
           >
             <Image
-              src="/images/sleep2.png"
+              src="/images/ML/sleep2.png"
               alt="Classification of Sleep Quality Levels"
               className={styles.projectImageML}
               width={800}
