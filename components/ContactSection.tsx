@@ -3,9 +3,9 @@ import { motion } from "framer-motion";
 import styles from "../styles/Home.module.css";
 
 const ContactSection: React.FC = () => {
-  const [email, setEmail] = useState('');
-  const [textarea, setTextarea] = useState('');
-  const [status, setStatus] = useState('');
+  const [email, setEmail] = useState("");
+  const [textarea, setTextarea] = useState("");
+  const [status, setStatus] = useState("");
   const [loading, setLoading] = useState(false);
 
   const handleSubmit = async (e: FormEvent<HTMLFormElement>) => {
@@ -13,10 +13,10 @@ const ContactSection: React.FC = () => {
     setLoading(true); // Aktifkan loading saat form disubmit
 
     try {
-      const res = await fetch('/api/send-email', {
-        method: 'POST',
+      const res = await fetch("/api/send-email", {
+        method: "POST",
         headers: {
-          'Content-Type': 'application/json',
+          "Content-Type": "application/json",
         },
         body: JSON.stringify({ email, textarea }),
       });
@@ -24,15 +24,15 @@ const ContactSection: React.FC = () => {
       const data = await res.json();
 
       if (res.status === 200) {
-        setStatus('Email sent successfully');
-        setEmail('');
-        setTextarea('');
+        setStatus("Email sent successfully");
+        setEmail("");
+        setTextarea("");
       } else {
-        setStatus('Error sending email');
+        setStatus("Error sending email");
       }
     } catch (error) {
-      console.error('Error:', error);
-      setStatus('Error sending email');
+      console.error("Error:", error);
+      setStatus("Error sending email");
     } finally {
       setLoading(false); // Matikan loading setelah pengiriman selesai
     }
@@ -59,20 +59,20 @@ const ContactSection: React.FC = () => {
             <br />
             LinkedIn:{" "}
             <a
-              href="https://www.linkedin.com/in/muhammadazis"
+              href="https://www.linkedin.com/in/muhammad-azis-2a41b926b?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BlWcJLKHcRt28B3daPFo2Bg%3D%3D"
               target="_blank"
               rel="noopener noreferrer"
             >
-              linkedin.com/in/muhammadazis
+              linkedin.com/in/muhammad-azis
             </a>
             <br />
             GitHub:{" "}
             <a
-              href="https://github.com/muhammadazis"
+              href="https://github.com/Mazikooo"
               target="_blank"
               rel="noopener noreferrer"
             >
-              github.com/muhammadazis
+              github.com/Mazikooo
             </a>
           </p>
         </div>
@@ -101,8 +101,12 @@ const ContactSection: React.FC = () => {
                 onChange={(e) => setTextarea(e.target.value)}
               ></textarea>
             </div>
-            <button type="submit" className={styles.formSubmitBtn} disabled={loading}>
-              {loading ? 'Sending...' : 'Submit'}
+            <button
+              type="submit"
+              className={styles.formSubmitBtn}
+              disabled={loading}
+            >
+              {loading ? "Sending..." : "Submit"}
             </button>
             {status && <p>{status}</p>}
           </form>
